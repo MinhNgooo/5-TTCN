@@ -1,0 +1,147 @@
+.header-title {
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: space-around;
+
+  padding: 20px 0;
+  height: 60%;
+  .logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    img {
+      width: 162px;
+      height: 50px;
+    }
+  }
+  .search {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 645px;
+    padding: 3px;
+    font-size: 14px;
+    input {
+      width: 550px;
+      height: 34px;
+      outline: none;
+      padding: 2px 8px;
+      border-radius: 2px;
+      border: none;
+    }
+    button {
+      height: 34px;
+      padding: 5px 15px;
+      border-radius: 2px;
+      border: none;
+      font-weight: 200;
+      &:hover {
+        opacity: 0.8;
+      }
+      &:active {
+        opacity: 1;
+      }
+    }
+  }
+  .login-resgister {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    min-width: 157px;
+    .user {
+      display: flex;
+      flex-direction: column;
+      a {
+        color: #000;
+        border-bottom: 1px solid #ccc;
+        &:last-child {
+          border: none;
+        }
+        &:hover {
+          background-color: #e9ecef;
+        }
+        .button {
+          width: 100%;
+          color: inherit;
+        }
+      }
+    }
+    button,
+    .link {
+      color: #adb5bd;
+      background-color: transparent;
+      border: none;
+      font-size: 16px;
+      &:hover {
+        color: #fff;
+      }
+    }
+    span {
+      margin: 0 10px;
+    }
+  }
+  
+}
+
+.container {
+  .item {
+    display: grid;
+    grid-template-columns: 40% 50% 10%;
+    width: 300px;
+    padding: 8px 10px;
+    border-bottom: 1px solid #ccc;
+
+    .img-product {
+      img {
+        width: 100%;
+      }
+    }
+    .product-info {
+      padding-left: 10px;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+      p {
+        font-size: 13px;
+      }
+    }
+    .remove-button {
+      background-color: red;
+      color: white;
+      border: 1px solid #ccc;
+      padding: 4px 8px;
+      border-radius: 60%;
+      align-self: center;
+      cursor: pointer;
+
+      * {
+        cursor: pointer;
+      }
+      &:hover {
+        opacity: 0.8;
+      }
+      &:active {
+        opacity: 1;
+      }
+    }
+  }
+  .button-ground {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    padding-top: 20px;
+    .button {
+      background-color: red;
+      color: white;
+      width: 100%;
+      height: 40px;
+      font-size: 16px;
+      margin: 5px 0;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}
