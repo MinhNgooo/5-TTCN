@@ -1,0 +1,27 @@
+[
+  {
+    "number": "01",
+    "title": "Bài eCT1: Hướng dẫn đăng nhập trên hệ thống Bkav eChungtu",
+    "pathname": "huong-dan-dang-nhap"
+  },
+  {
+    "number": "02",
+    "title": "Bài eCT2: Hướng dẫn Tạo và Phát hành Chứng từ điện tử trực tuyến trên hệ thống",
+    "pathname": "huong-dan-tao-va-phat-hanh-truc-tuyen"
+  },
+  {
+    "number": "03",
+    "title": "Bài eCT3: Hướng dẫn Tạo Chứng từ điện tử từ file Excel và upload file Excel Chứng từ lên hệ thống",
+    "pathname": "huong-dan-import-file"
+  },
+  {
+    "number": "04",
+    "title": "Bài eCT4: Hướng dẫn Thay đổi mật khẩu đăng nhập hệ thống Bkav eChungtu",
+    "pathname": "huong-dan-doi-mat-khau"
+  },
+  {
+    "number": "05",
+    "title": "Bài eCT5: Bài eCT5: Hướng dẫn Tạo mới Thông báo phát hành Chứng từ Điện tử trên hệ thống Bkav eChungtu",
+    "pathname": "huong-dan-tao-thong-bao-phat-hanh-chung-tu-dien-tu"
+  }
+]

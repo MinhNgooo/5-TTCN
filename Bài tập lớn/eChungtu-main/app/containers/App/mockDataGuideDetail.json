@@ -1,0 +1,22 @@
+[
+  {
+    "id": "ld1",
+    "pathname": "/huong-dan-dang-nhap"
+  },
+  {
+    "id": "ld2",
+    "pathname": "/huong-dan-tao-va-phat-hanh-truc-tuyen"
+  },
+  {
+    "id": "ld3",
+    "pathname": "/huong-dan-import-file"
+  },
+  {
+    "id": "ld4",
+    "pathname": "/huong-dan-doi-mat-khau"
+  },
+  {
+    "id": "ld5",
+    "pathname": "/huong-dan-tao-thong-bao-phat-hanh-chung-tu-dien-tu"
+  }
+]

@@ -1,0 +1,69 @@
+.navbar-fixed-top {
+  height: 61px !important;
+}
+
+.navbar-expand-md .navbar-nav {
+  padding-left: 1px;
+}
+
+.style-button-contact {
+  margin-right: 1px;
+  padding-top: 7px !important;
+}
+
+.main-banner {
+  padding-top: 17px;
+}
+.fb_iframe_widget {
+  position: relative;
+  /*float: left;*/
+  display: unset;
+  padding-right: 10px;
+  padding-top: 4px;
+}
+
+.fb-like{
+  float: left;
+}
+
+.fb-share-button {
+  padding-top: 0px !important;
+  margin-top: unset !important;
+}
+
+@-webkit-keyframes cusFadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px)
+  }
+
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0)
+  }
+}
+
+@keyframes cusFadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px)
+  }
+
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0)
+  }
+}
+
+.cusFadeInUp {
+  -webkit-animation-name: cusFadeInUp;
+  animation-name: cusFadeInUp
+}
